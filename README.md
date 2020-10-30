@@ -60,20 +60,28 @@ Veja a [Seção Arquivos](https://mpv.io/manual/master/#files) no manual do mpv 
 ## Script installation and practical use | Instalação e uso prático do script
 
 You can use the template. Already ready. Just clone the repository:
-  `git clone https://github.com/felipefacundes/mpv_crop_script`
+  ```shell
+  git clone https://github.com/felipefacundes/mpv_crop_script
+  ```
 
   * Linux/Unix/Mac: After cloning just copy the entire `mpv` folder into `~/.config` folder:
-  `cd mpv_crop_script && cp -rf mpv ~/.config`
+  ```shell
+  cd mpv_crop_script && cp -rf mpv ~/.config
+  ```
 
   * Windows: copy the mpv folder to `%APPDATA%\Roaming\`
 
 ----
 
 Você poderá usar o modelo. Já pronto. Basta clonar o repositório:
-  `git clone https://github.com/felipefacundes/mpv_crop_script`
+  ```shell
+  git clone https://github.com/felipefacundes/mpv_crop_script
+  ```
 
   * Linux/Unix/Mac: Após a clonagem, basta copiar toda a pasta `mpv` para a pasta`~/.config`:
-  `cd mpv_crop_script && cp -rf mpv ~/.config`
+  ```shell
+  cd mpv_crop_script && cp -rf mpv ~/.config
+  ```
 
   * Windows: copie a pasta mpv em `%APPDATA%\Roaming\`
 
