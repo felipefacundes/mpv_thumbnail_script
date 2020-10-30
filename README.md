@@ -5,9 +5,8 @@
 ### <a href="https://github.com/felipefacundes/mpv_thumbnail_script/"><img src="docs/brazil.jpg" width="32" height="17" title="O que é isso?" alt="Portugues Brasil"></a> Um Lua script para exibir miniaturas de visualização ao passar o mouse sobre a barra de busca, sem nenhuma dependência externa
 
 [![](docs/mpv_thumbnail_script.gif "Thumbnail preview for Sintel (2010) on mpv's seekbar")](NULL)
-[*Click the image or here to see the script in action*](https://youtu.be/Eis0Ipu7yw0)
 
-*(You might also be interested in [`mpv_thumbnail_script.lua`](https://github.com/TheAMM/mpv_thumbnail_script))*
+*(You might also be interested in [`mpv_thumbnail_script.lua`](https://github.com/felipefacundes/mpv_thumbnail_script))*
 
 ----
 
@@ -23,15 +22,13 @@
 
 ## <a href="https://github.com/felipefacundes/mpv_thumbnail_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="How?" alt="English"></a> How?
 
-mpv by itself doesn't support cropped screenshots, but can be told to save a full screenshot at a specified location.
-This full-sized image can then be cropped down to size, but this requires a tool to edit the image (like ImageMagick). Bothersome!
+mpv alone does not support generating thumbnails for a preview in the seeking bar ( seekbar ). Bothersome!
 
 However, we can forget external ependencies by calling on mpv itself to use the the built-in [encoding features](https://mpv.io/manual/master/#encoding). Bam! Faster thumbnail generation
 
 ## <a href="https://github.com/felipefacundes/mpv_thumbnail_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Como?" alt="Portugues Brasil"></a> Como?
 
-mpv por si só não suporta capturas de tela cortadas, mas pode ser instruído a salvar uma captura de tela completa em um local especificado.
-Esta imagem em tamanho real pode então ser cortada no tamanho certo, mas isso requer uma ferramenta para editar a imagem (como ImageMagick). Incomodador!
+mpv por si só não suporta gerar miniaturas para uma pré visualização na barra de busca .
 
 No entanto, podemos esquecer as dependências externas chamando o próprio mpv para usar os [recursos de codificação integrados](https://mpv.io/manual/master/#encoding). Pronto! Agora será capas de gerar miniaturas .
 
@@ -45,7 +42,7 @@ For example:
   * Linux/Unix/Mac: `~/.config/mpv/lua-settings/mpv_thumbnail_script.conf`
   * Windows: `%APPDATA%\Roaming\mpv\lua-settings\mpv_thumbnail_script.conf`
 
-You can grab an example config [from HERE](https://raw.githubusercontent.com/TheAMM/mpv_sort_script/build/mpv_sort_script.conf).
+You can grab an example config [from HERE](https://raw.githubusercontent.com/felipefacundes/mpv_thumbnail_script/main/mpv/lua-settings/mpv_thumbnail_script.conf).
 
 See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
 
