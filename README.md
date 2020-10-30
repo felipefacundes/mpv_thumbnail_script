@@ -10,7 +10,7 @@
 
 ----
 
-## What is it?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="PlayOnGit English"></a> What is it?
 
 `mpv_crop_script.lua` is a script for making cropped screenshots from within [mpv](https://github.com/mpv-player/mpv), without any external dependencies[<sup>1</sup>](#Footnotes), cross-platform-ly [<sup>2</sup>](#Footnotes)!
 
@@ -20,7 +20,7 @@
 
 ----
 
-## How?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="PlayOnGit English"></a> How?
 
 mpv by itself doesn't support cropped screenshots, but can be told to save a full screenshot at a specified location.
 This full-sized image can then be cropped down to size, but this requires a tool to edit the image (like ImageMagick). Bothersome!
@@ -62,7 +62,7 @@ Veja a [Seção Arquivos](https://mpv.io/manual/master/#files) no manual do mpv 
 
 ----
 
-## Script installation and practical use
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="PlayOnGit English"></a> Script installation and practical use
 
 You can use the template. Already ready. Just clone the repository:
   ```shell
@@ -92,11 +92,11 @@ Você poderá usar o modelo. Já pronto. Basta clonar o repositório:
 
 ----
 
-## Change the Lua script (optional) | Alterar o Lua script (opcional)
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="PlayOnGit English"></a> Change the Lua script (optional)
 
 You can change the script in Lua by following these guidelines [`string.format()`](http://www.lua.org/manual/5.1/manual.html#pdf-string.format)
 
-----
+## Alterar o Lua script (opcional)
 
 Você pode alterar o script em Lua seguindo essas orientações [`string.format()`](http://www.lua.org/manual/5.1/manual.html#pdf-string.format)
 
