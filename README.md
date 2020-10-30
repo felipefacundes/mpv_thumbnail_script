@@ -6,7 +6,9 @@
 
 [![](docs/mpv_thumbnail_script.gif "Thumbnail preview for Sintel (2010) on mpv's seekbar")](NULL)
 
-*(You might also be interested in [`mpv_thumbnail_script.lua`](https://github.com/felipefacundes/mpv_thumbnail_script))*
+<a href="https://github.com/felipefacundes/mpv_thumbnail_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="What is it?" alt="English"></a> *(You might also be interested in [`mpv_thumbnail_script.lua`](https://github.com/felipefacundes/PlayOnGit-en))*
+
+<a href="https://github.com/felipefacundes/mpv_thumbnail_script/"><img src="docs/brazil.jpg" width="32" height="17" title="O que é isso?" alt="Portugues Brasil"></a> *(Você também pode estar interessado em [`mpv_thumbnail_script.lua`](https://github.com/felipefacundes/PlayOnGit))*
 
 ----
 
