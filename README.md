@@ -10,24 +10,24 @@
 
 ----
 
-## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="English"></a> What is it?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="What is it?" alt="English"></a> What is it?
 
 `mpv_crop_script.lua` is a script for making cropped screenshots from within [mpv](https://github.com/mpv-player/mpv), without any external dependencies[<sup>1</sup>](#Footnotes), cross-platform-ly [<sup>2</sup>](#Footnotes)!
 
-## O que é isso?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="O que é isso?" alt="Portugues Brasil"></a> O que é isso?
 
 `mpv_crop_script.lua` é um script para fazer capturas de tela recortadas de dentro de [mpv](https://github.com/mpv-player/mpv), sem quaisquer dependências externas [<sup>1</sup>](#Footnotes), plataforma-cruzada-ly [<sup>2</sup>](#Footnotes)!
 
 ----
 
-## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="English"></a> How?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="How?" alt="English"></a> How?
 
 mpv by itself doesn't support cropped screenshots, but can be told to save a full screenshot at a specified location.
 This full-sized image can then be cropped down to size, but this requires a tool to edit the image (like ImageMagick). Bothersome!
 
 However, we can forget external ependencies by calling on mpv itself to use the the built-in [encoding features](https://mpv.io/manual/master/#encoding). Bam!
 
-## Como?
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Como?" alt="Portugues Brasil"></a> Como?
 
 mpv por si só não suporta capturas de tela cortadas, mas pode ser instruído a salvar uma captura de tela completa em um local especificado.
 Esta imagem em tamanho real pode então ser cortada no tamanho certo, mas isso requer uma ferramenta para editar a imagem (como ImageMagick). Incomodador!
@@ -48,7 +48,7 @@ You can grab an example config [from HERE](https://raw.githubusercontent.com/The
 
 See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.
 
-## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Configuration" alt="Portugues Brasil"></a> Configuração
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Configuração" alt="Portugues Brasil"></a> Configuração
 
 Crie um arquivo chamado `mpv_thumbnail_script.conf` dentro do diretório `lua-settings` em seu diretório `mpv`.
 
@@ -62,7 +62,7 @@ Veja a [Seção Arquivos](https://mpv.io/manual/master/#files) no manual do mpv 
 
 ----
 
-## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="English"></a> Script installation and practical use
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="installation" alt="English"></a> Script installation and practical use
 
 You can use the template. Already ready. Just clone the repository:
   ```shell
@@ -76,7 +76,7 @@ You can use the template. Already ready. Just clone the repository:
 
   * Windows: copy the mpv folder to `%APPDATA%\Roaming\`
 
-## Instalação e uso prático do script
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Instalação" alt="Portugues Brasil"></a> Instalação e uso prático do script
 
 Você poderá usar o modelo. Já pronto. Basta clonar o repositório:
   ```shell
@@ -92,11 +92,11 @@ Você poderá usar o modelo. Já pronto. Basta clonar o repositório:
 
 ----
 
-## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Configuration" alt="English"></a> Change the Lua script (optional)
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Change the Lua script" alt="English"></a> Change the Lua script (optional)
 
 You can change the script in Lua by following these guidelines [`string.format()`](http://www.lua.org/manual/5.1/manual.html#pdf-string.format)
 
-## Alterar o Lua script (opcional)
+## <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Alterar o Lua script" alt="Portugues Brasil"></a> Alterar o Lua script (opcional)
 
 Você pode alterar o script em Lua seguindo essas orientações [`string.format()`](http://www.lua.org/manual/5.1/manual.html#pdf-string.format)
 
@@ -108,7 +108,7 @@ Você pode alterar o script em Lua seguindo essas orientações [`string.format(
 
 <sup>2</sup>Developed & tested on Windows and Linux (Ubuntu), but it *should* work on Mac and whatnot as well, if <sup>1</sup> has been taken care of.
 
-#### Notas de rodapé
+#### <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Notas de rodapé" alt="Portugues Brasil"></a> Notas de rodapé
 
 <sup>1</sup>Você *pode* precisar adicionar `mpv [.exe]` ao seu `PATH`.
 
@@ -116,10 +116,10 @@ Você pode alterar o script em Lua seguindo essas orientações [`string.format(
 
 ----
 
-# Doação
+# <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="docs/brazil.jpg" width="32" height="17" title="Doação" alt="Portugues Brasil"></a> Doação
 
 Se você realmente gosta disso, pode me doar via [`PayPal`](https://www.paypal.com/donate/?hosted_button_id=REU2UNGXLQQPG).
 
-# Donation
+# <a href="https://github.com/felipefacundes/mpv_crop_script/"><img src="https://raw.githubusercontent.com/felipefacundes/PS/master/imagens/United_States.png" width="32" height="17" title="Change the Lua script" alt="English"></a> Donation
 
 If you really like it, you can pay me with [`PayPal`](https://www.paypal.com/donate/?hosted_button_id=REU2UNGXLQQPG).
