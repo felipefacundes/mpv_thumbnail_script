@@ -11,11 +11,11 @@
 
 ## What is it? | O que é isso?
 
-`mpv_crop_script.lua` is a script for making cropped screenshots from within [mpv](https://github.com/mpv-player/mpv), without any external dependencies[<sup>1</sup>](#footnotes), cross-platform-ly [<sup>2</sup>](#footnotes)!
+`mpv_crop_script.lua` is a script for making cropped screenshots from within [mpv](https://github.com/mpv-player/mpv), without any external dependencies[<sup>1</sup>](#Footnotes | Notas de rodapé), cross-platform-ly [<sup>2</sup>](#Footnotes | Notas de rodapé)!
 
 ----
 
-`mpv_crop_script.lua` é um script para fazer capturas de tela recortadas de dentro de [mpv](https://github.com/mpv-player/mpv), sem quaisquer dependências externas [<sup>1</sup>](#footnotes), plataforma-cruzada-ly [<sup>2</sup>](#footnotes)!
+`mpv_crop_script.lua` é um script para fazer capturas de tela recortadas de dentro de [mpv](https://github.com/mpv-player/mpv), sem quaisquer dependências externas [<sup>1</sup>](#Footnotes | Notas de rodapé), plataforma-cruzada-ly [<sup>2</sup>](#Footnotes | Notas de rodapé)!
 
 ## How? | Como?
 
